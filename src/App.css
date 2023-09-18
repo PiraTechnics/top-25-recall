@@ -25,5 +25,5 @@
 
 .card:hover {
 	transform: scale(1.1);
-	box-shadow: 0 0 20px grey;
+	box-shadow: 0 0 30px rgb(63, 63, 63);
 }
