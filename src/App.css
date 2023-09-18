@@ -19,5 +19,11 @@
 	max-width: 1500px;
 }
 
+.card {
+	transition: all 0.1s ease-in-out;
+}
+
 .card:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 20px grey;
 }
