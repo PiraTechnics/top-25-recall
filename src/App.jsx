@@ -39,7 +39,7 @@ function App() {
 	useEffect(() => {
 		const fetchData = async () => {
 			const response = await fetch(
-				"http://site.api.espn.com/apis/site/v2/sports/football/college-football/rankings"
+				"https://site.api.espn.com/apis/site/v2/sports/football/college-football/rankings"
 			);
 
 			const teamData = await response.json();
